@@ -8,14 +8,11 @@ The purpose of this workshop is to learn how to use Godot Engine to make interac
 
 That's it!
 
-(Scenes)[]
+(Nodes)[]
+(Resources)[]
 (Viewports)[]
 (Instancing)[]
 (Scripting)[]
 (2D example)[]
-(Scene Tree)[]
 (Events)[]
-(Changing Scenes)[]
 (3D Example)[]
-(Ray Casting)[]
-(Export)[]
