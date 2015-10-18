@@ -13,11 +13,11 @@ Resources extend from an Object called Reference, when a Resource is no longer u
 1. Create a Node
 2. Set a Resource property
 3. Make that Resource external by saving it to a file
-4. Make that Resource internal again by removing the Path property
+4. Make that Resource internal again by removing the path property
 
 ## Excercise 3
 
-1. Create a Node called "sprite" and add the following code to the scene.
+1. Create a Node called "sprite" and add the following code to the Scene.
 
 ```
 func _ready():
