@@ -5,7 +5,7 @@ The assets of a Godot project are organized as a tree of nodes, where every node
 - Editable properties
 - A callback function to execute every frame
 
-There are many types of objects that extend from Node, and we can also make our own.
+A Node is basically a datatype that has paramers and behavior. Most of the other extend from Node, and we can also make our own.
 
 ## Scenes
 
