@@ -8,14 +8,14 @@ Resources can be **external**, which means they're stored in a separated file. R
 
 Resources extend from an Object called Reference, when a Resource is no longer used, it frees itself; that is, when the Node referencing the given Resource is removed.
 
-## Excercise 2
+## Exercise 2
 
 1. Create a Node
 2. Set a Resource property
 3. Make that Resource external by saving it to a file
 4. Make that Resource internal again by removing the path property
 
-## Excercise 3
+## Exercise 3
 
 1. Create a Node called "sprite" and add the following code to the Scene.
 

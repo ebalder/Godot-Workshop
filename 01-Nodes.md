@@ -19,7 +19,7 @@ A Scene is a composition of Nodes. It has these features:
 
 Godot is a *Scene Editor*; all of it revolves around the concept of editing Scenes and the Nodes that compose it.
 
-## Excercise 1
+## Exercise 1
 
 1. Create a new project
 2. Add a new Node 

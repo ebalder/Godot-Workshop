@@ -16,7 +16,7 @@ In 3D, a Viewport will contain a World, which has a set of parameters for render
 
 If a Viewport is a child of a Control, it becomes active and display everything that's inside.
 
-## Excercise 4
+## Exercise 4
 
 1. Make a Viewport
 2. Add a children
