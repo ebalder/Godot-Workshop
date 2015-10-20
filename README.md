@@ -1,6 +1,6 @@
 # Godot-Workshop
 
-The purpose of this workshop is to learn how to use Godot Engine to make interactive 3D games. We will cover the scripting language, some of its classes and some of the types of nodes we can script.
+The purpose of this workshop is to learn how to use Godot Engine to make interactive games. We will cover the scripting language, some of its classes and some of the types of nodes we can script.
 
 ## Requirements
 
