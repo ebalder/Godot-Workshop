@@ -10,19 +10,20 @@ Resources extend from an Object called Reference, when a Resource is no longer u
 
 ## Exercise 2
 
-1. Create a Node
-2. Set a Resource property
-3. Make that Resource external by saving it to a file
-4. Make that Resource internal again by removing the path property
+1. On the scene of the previous exercise, assign the square.tex resource as the Texture property of the Sprites.
+2. Scale and arrange them so the scene looks like this (familiar?):
+![pong scene](img/pong-scene.png)
 
 ## Exercise 3
 
-1. Create a Node called "sprite" and add the following code to the Scene.
+1. Remove the Texture property from the ball Node and add the following script to it.
 
 ```
 func _ready():
 
-	var res = load("res://robi.png") # resource is loaded when line is executed
-	get_node("sprite").set_texture(res) 
+	var res = load("res://assets/squared.png") # resource is loaded when line is executed
+	set_texture(res) 
 	
 ```
+
+2. Save the script as an external resource.
