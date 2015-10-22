@@ -14,7 +14,7 @@ Resources extend from an Object called Reference, when a Resource is no longer u
 2. Scale and arrange them so the scene looks like this (familiar?):
 ![pong scene](img/pong-scene.png)
 
-## Exercise 3
+## Exercise 2b 
 
 1. Remove the Texture property from the ball Node and add the following script to it.
 

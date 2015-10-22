@@ -16,15 +16,20 @@ In 3D, a Viewport will contain a World, which has a set of parameters for render
 
 If a Viewport is a child of a Control, it becomes active and display everything that's inside.
 
-## Exercise 4
+## Exercise 3
 
-1. Make a Viewport
-2. Add a children
+1. Open a new Scene and generate the following tree:
+![viewports tree](img/viewports.png)
+
 3. Play
 4. Now make a Control and reparent the Viewport to it
+![viewports tree 2](img/viewports2.png)
+
 5. Play again
 6. Take the viewport off the Control
 7. Add a Viewport Sprite
+![viewports tree 3](img/viewports3.png)
+
 8. Set the viewport property to our Viewport
 9. Enable "render target" in our Viewport's properties
 
