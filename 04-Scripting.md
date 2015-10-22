@@ -36,7 +36,7 @@ func _unpaused():
 In the case of the _process and _fixe_process functions, we'll need to indicate that we want to override them, we can do so by calling `set_process(true)` and  `set_fixed_process(true)` respectively. 
 
 
-## Exercise 6
+## Exercise 4
 
 Create a Script for the Pong scene (on the root node), you will start with someting like this:
 ```

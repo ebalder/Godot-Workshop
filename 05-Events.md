@@ -25,7 +25,7 @@ An InputEvent may be associated to an Action, this helps abstract specific input
 
 Actions can be set from the project configuration.
 
-## Exercise 7
+## Exercise 5
 
 Currently, the Pong game doesn't have code that makes the pads move, we'll fix that soon.
 
@@ -49,4 +49,19 @@ if (right_pos.y < screen_size.y and Input.is_action_pressed("right_move_down")):
 	right_pos.y+=PAD_SPEED*delta
 
 get_node("right").set_pos(right_pos)
+```
+
+## Exercise 5b
+
+1. On a new scene, create a root node and add a script that activates input processing:
+```
+func _ready():
+	set_process_input(true)
+```
+
+2. Add the input callback which checks for a click of the mouse and then prints the coordinates click:
+```
+func _input(ev):
+	if (ev.type==InputEvent.MOUSE_BUTTON):
+		print("Mouse Click/Unclick at: ",ev.pos)
 ```
