@@ -8,11 +8,11 @@ The purpose of this workshop is to learn how to use Godot Engine to make interac
 
 That's it!
 
-(Nodes)[]
-(Resources)[]
-(Viewports)[]
-(Scripting)[]
-(Events)[]
-(Instancing)[]
-(Signals)[]
-(3D Example)[]
+1. [Nodes](https://github.com/Lexas/Godot-Workshop/blob/master/01-Nodes.md)
+2. [Resources](https://github.com/Lexas/Godot-Workshop/blob/master/02-Resources.md)
+3. [Viewports](https://github.com/Lexas/Godot-Workshop/blob/master/03-Viewports.md)
+4. [Scripting](https://github.com/Lexas/Godot-Workshop/blob/master/04-Scripting.md)
+5. [Events](https://github.com/Lexas/Godot-Workshop/blob/master/05-Events.md)
+6. [Instancing](https://github.com/Lexas/Godot-Workshop/blob/master/06-Instancing.md)
+7. [Signals](https://github.com/Lexas/Godot-Workshop/blob/master/07-Signals.md)
+8. [3D Example](https://github.com/Lexas/Godot-Workshop/blob/master/08-3DExample.md)
