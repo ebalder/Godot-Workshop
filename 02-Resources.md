@@ -10,13 +10,13 @@ Resources extend from an Object called Reference, when a Resource is no longer u
 
 ## Exercise 2
 
-1. On the scene of the previous exercise, assign the square.tex resource as the Texture property of the Sprites.
-2. Scale and arrange them so the scene looks like this (familiar?):
+- On the scene of the previous exercise, assign the square.tex resource as the Texture property of the Sprites.
+- Scale and arrange them so the scene looks like this (familiar?):
 ![pong scene](img/pong-scene.png)
 
 ## Exercise 2b 
 
-1. Remove the Texture property from the ball Node and add the following script to it.
+- Remove the Texture property from the ball Node and add the following script to it.
 
 ```
 func _ready():
@@ -26,4 +26,4 @@ func _ready():
 	
 ```
 
-2. Save the script as an external resource.
+- Save the script as an external resource.

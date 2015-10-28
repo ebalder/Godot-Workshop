@@ -21,9 +21,9 @@ Godot is a *Scene Editor*; all of it revolves around the concept of editing Scen
 
 ## Exercise 1
 
-1. Create a new project and generate a Node tree that looks like this:
+- Create a new project and generate a Node tree that looks like this:
 ![scene tree](img/pong-tree.png)
 
-4. Run the Scene
-5. Save the Scene and try to run it again
-6. Configure the project to run the current Scene
+- Run the Scene
+- Save the Scene and try to run it again
+- Configure the project to run the current Scene

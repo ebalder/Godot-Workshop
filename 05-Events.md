@@ -29,8 +29,8 @@ Actions can be set from the project configuration.
 
 Currently, the Pong game doesn't have code that makes the pads move, we'll fix that soon.
 
-1. Set up the actions for moving each of the pads up and down, you will need 4 actions.
-2. Append to the _process function the code that evaluates if Input corresponds to any of the actions previously set and moves the pads to the corresponding directions.
+- Set up the actions for moving each of the pads up and down, you will need 4 actions.
+- Append to the _process function the code that evaluates if Input corresponds to any of the actions previously set and moves the pads to the corresponding directions.
 ```
 var left_pos = get_node("left").get_pos()
 
@@ -53,13 +53,13 @@ get_node("right").set_pos(right_pos)
 
 ## Exercise 5b
 
-1. On a new scene, create a root node and add a script that activates input processing:
+- On a new scene, create a root node and add a script that activates input processing:
 ```
 func _ready():
 	set_process_input(true)
 ```
 
-2. Add the input callback which checks for a click of the mouse and then prints the coordinates click:
+- Add the input callback which checks for a click of the mouse and then prints the coordinates click:
 ```
 func _input(ev):
 	if (ev.type==InputEvent.MOUSE_BUTTON):

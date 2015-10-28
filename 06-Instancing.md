@@ -10,16 +10,16 @@ The point of Instancing is for easing the architectural design of the project, i
 
 ## Excercise 8
 
-1. Make a Scene with a button that says "Parent", remember to have a Root Node
-2. Make another Scene with a button that says "Child"
-3. Instance the Child Scene in the Parent Scene, so that the resulting tree looks like this: 
+- Make a Scene with a button that says "Parent", remember to have a Root Node
+- Make another Scene with a button that says "Child"
+- Instance the Child Scene in the Parent Scene, so that the resulting tree looks like this: 
 
 ![Separation](https://github.com/okamstudio/godot/wiki/images/instancing_tree.png)
 
 
 ## Excercise 9
 
-1. Add a script to the scene where you load the instance scene by code:
+- Add a script to the scene where you load the instance scene by code:
 ```
 var scene = load("res://myscene.scn")
 var root
@@ -29,7 +29,7 @@ func _ready():
 	root = get_node('/')
 ```
 
-2. Make a function that adds the instance to the tree when the Button is pressed, we will increase the x and y position each time:
+- Make a function that adds the instance to the tree when the Button is pressed, we will increase the x and y position each time:
 ```
 func _pressed():
 	var instance = scene.instance()

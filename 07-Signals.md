@@ -4,15 +4,15 @@ Signals can be emmited from a Node and set to trigger a given function of any sc
 
 ## Exercise 10
 
-1. Make a button
-2. Make a label
-3. Add a script to the label
+- Make a button
+- Make a label
+- Add a script to the label
 ```
 func button_pressed():
 	set_text('Button Pressed!')
 ```
 
-4. Connect the pressed action of the button to the button_pressed function of the label 
+- Connect the pressed action of the button to the button_pressed function of the label 
 
 ## Exercise 11
 

@@ -6,11 +6,23 @@ In the documentation tab, you can look for reference of Classes, methods, consta
 
 ## Excercise 12
 
-1. Make a Plane
-2. Make a Sphere
-3. Add a Collission to the Sphere
-4. Add a Collission to the Plane
-5. Make the Sphere a physics body so it reacts to collisions
-6. Add another solid
-7. Add a processing function that checks whether the solid is being touched by the sphere
-8. Add key actions and set them to move around
+- Make The following node tree:
+
+![3D node tree](img/3D-node-tree.png)
+
+- Arrange the Nodes according to the following:
+	- The CollisionShape on the RigidBody should match the TestCube's position and size.
+	- The Camera should look at the TestCube on the RigidBody.
+	- The StaticBody is the floor and should be flat under everything else and big enough to move around it.
+	- StaticBody 2 should be nearly twice the size of the RigidBody's TestCube.
+![3D scene](img/3D-scene.png)
+- Add the key actions to the RigidBody to move around, we will reuse the actions set on our pong example.
+```
+func _input(ev):
+	if(ev.type == InputEvent.KEY):
+		if(ev.is_action('right_up')):
+			set_linear_velocity(Vector3(0, 0, -3))
+		elif(ev.is_action('right_down')):
+			set_linear_velocity(Vector3(0, 0, 3))
+```
+- Remember that you should extend from a class and activate input processing ;)

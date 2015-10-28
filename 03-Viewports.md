@@ -18,18 +18,18 @@ If a Viewport is a child of a Control, it becomes active and display everything 
 
 ## Exercise 3
 
-1. Open a new Scene and generate the following tree:
+- Open a new Scene and generate the following tree:
 ![viewports tree](img/viewports.png)
 
-3. Play
-4. Now make a Control and reparent the Viewport to it
+- Play
+- Now make a Control and reparent the Viewport to it
 ![viewports tree 2](img/viewports2.png)
 
-5. Play again
-6. Take the viewport off the Control
-7. Add a Viewport Sprite
+- Play again
+- Take the viewport off the Control
+- Add a Viewport Sprite
 ![viewports tree 3](img/viewports3.png)
 
-8. Set the viewport property to our Viewport
-9. Enable "render target" in our Viewport's properties
+- Set the viewport property to our Viewport
+- Enable "render target" in our Viewport's properties
 
