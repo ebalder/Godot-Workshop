@@ -26,3 +26,4 @@ func _input(ev):
 			set_linear_velocity(Vector3(0, 0, 3))
 ```
 - Remember that you should extend from a class and activate input processing ;)
+- 

@@ -6,8 +6,6 @@ A Viewport is a type of Node which represents a rectangle where a world can be d
 - Cameras always render to the nearest parent Viewport
 - There can be only one active camera per Viewport
 
-The root Node is always a Viewport.
-
 ## Worlds
 
 In 3D, a Viewport will contain a World, which has a set of parameters for rendering and physics. Spatial Nodes will register using the parameters of the World of the closest parent Viewport. You could use a child Viewport for isolating Objects from interacting with the Objects of the parent Viewport. 
