@@ -16,3 +16,5 @@ That's it!
 6. [Instancing](https://github.com/Lexas/Godot-Workshop/blob/master/06-Instancing.md)
 7. [Signals](https://github.com/Lexas/Godot-Workshop/blob/master/07-Signals.md)
 8. [3D Example](https://github.com/Lexas/Godot-Workshop/blob/master/08-3DExample.md)
+
+Most of the theory provided by [The Godot Engine Manual](http://godotengine.org/projects/godot-engine/wiki/Documentation)
