@@ -28,7 +28,7 @@ func _body_enter_shape(bodyID, body, shape, localShape):
 
 
 func jump():
-	apply_impulse(origin, up*4)
+	apply_impulse(origin, up*3)
 	jumping = true
 
 func walk(dir):
